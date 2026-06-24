@@ -1,0 +1,112 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem 1.5rem;
+}
+[hidden] {
+    display: none !important;
+}
+
+/* user */
+
+[data-user-id] {
+    border-left: 3px solid #DFFF00;
+}
+
+[data-toggle] {
+    background: #1A4D2E;
+    padding: 14px 18px;
+    transition: background 0.15s;
+}
+
+[data-toggle]:hover {
+    background: #171c19;
+}
+
+[data-toggle] strong {
+    color: #DFFF00;
+    font-size: 16px;
+}
+
+[data-toggle] a {
+    color: #FEE12B;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+[data-toggle] a:hover {
+    text-decoration: underline;
+}
+
+[data-posts-of] {
+    background: #0d2b18;
+    padding: 12px;
+    border-top: 1px solid #DFFF00;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+[data-post-id] {
+    background: #1A4D2E;
+    padding: 14px 16px;
+}
+
+[data-post-id] h4 {
+    color: #FEE12B;
+    font-size: 12px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+[data-post-id] > p {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.65;
+    margin-bottom: 12px;
+}
+
+/*btn*/
+button {
+    background: #f7f1e3;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+button:hover {
+    background: #FEE12B;
+}
+
+
+[data-comments-of] {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+[data-comments-of] p {
+    background: #1A4D2E;
+    border-left: 2px solid #fff;
+    padding: 8px 12px;
+    font-size: 0.78rem;
+    line-height: 1.55;
+    color: #fff;
+}
+
+[data-comments-of] p strong {
+    display: block;
+    color: #fff;
+    margin-bottom: 3px;
+    font-size: 0.8rem;
+}
